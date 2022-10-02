@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32916.344
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Benchmarks", "Benchmarks", "{48D8B28E-21DB-4355-8385-FDC6355616DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2602B24A-83C9-430A-8D9D-CA6BC2059843}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{B0CD9164-1AEC-46CA-8A94-E1324A5B88E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{30AC4729-42FF-472D-9B05-0EAFC8E92ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetExtensions.Soap.Demo.WebApi", "Demo\DotNetExtensions.Soap.Demo.WebApi\DotNetExtensions.Soap.Demo.WebApi.csproj", "{EEA54DCA-1A3E-456A-AE19-E93818B0FE33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetExtensions.Soap", "Projects\DotNetExtensions.Soap\DotNetExtensions.Soap.csproj", "{05E11A82-2FFD-45E5-AB03-B116B33332B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetExtensions.Soap.Tests", "Tests\DotNetExtensions.Soap.Tests\DotNetExtensions.Soap.Tests.csproj", "{297B1909-CC71-43F2-9F13-768CBBE043A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetExtensions.Soap.Benchmarks", "Benchmarks\DotNetExtensions.Soap.Benchmarks\DotNetExtensions.Soap.Benchmarks.csproj", "{22047673-4B89-4CFD-B551-AC0EFBBF2D82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1644FEA5-7038-4661-B733-300AAF3918DB}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEA54DCA-1A3E-456A-AE19-E93818B0FE33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA54DCA-1A3E-456A-AE19-E93818B0FE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA54DCA-1A3E-456A-AE19-E93818B0FE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA54DCA-1A3E-456A-AE19-E93818B0FE33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E11A82-2FFD-45E5-AB03-B116B33332B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E11A82-2FFD-45E5-AB03-B116B33332B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E11A82-2FFD-45E5-AB03-B116B33332B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E11A82-2FFD-45E5-AB03-B116B33332B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{297B1909-CC71-43F2-9F13-768CBBE043A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{297B1909-CC71-43F2-9F13-768CBBE043A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{297B1909-CC71-43F2-9F13-768CBBE043A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{297B1909-CC71-43F2-9F13-768CBBE043A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22047673-4B89-4CFD-B551-AC0EFBBF2D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22047673-4B89-4CFD-B551-AC0EFBBF2D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22047673-4B89-4CFD-B551-AC0EFBBF2D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22047673-4B89-4CFD-B551-AC0EFBBF2D82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EEA54DCA-1A3E-456A-AE19-E93818B0FE33} = {B0CD9164-1AEC-46CA-8A94-E1324A5B88E3}
+		{05E11A82-2FFD-45E5-AB03-B116B33332B9} = {30AC4729-42FF-472D-9B05-0EAFC8E92ED0}
+		{297B1909-CC71-43F2-9F13-768CBBE043A8} = {2602B24A-83C9-430A-8D9D-CA6BC2059843}
+		{22047673-4B89-4CFD-B551-AC0EFBBF2D82} = {48D8B28E-21DB-4355-8385-FDC6355616DF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {691553C8-2C50-4B87-90CF-D512C2665E6A}
+	EndGlobalSection
+EndGlobal
